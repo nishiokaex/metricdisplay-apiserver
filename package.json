@@ -1,0 +1,21 @@
+{
+  "name": "metricdisplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "errorhandler": "1.5.1",
+    "express": "4.17.1",
+    "puppeteer": "2.1.1"
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.13.4"
+  }
+}
