@@ -14,7 +14,7 @@ passport.use (
     {
       clientID: '0a8de1522b3210a8ff2b',
       clientSecret: '0bb47eb313831ce94bcf2e93fa81541b4de10e1c',
-      callbackURL: 'http://127.0.0.1:3000/api/social/github/callback',
+      callbackURL: 'https://ajisai.herokuapp.com/api/social/github/callback',
     },
     (accessToken, refreshToken, profile, cb) => {
       return cb (null, profile);
