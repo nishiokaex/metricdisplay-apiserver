@@ -9,9 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
     "cors": "2.8.5",
+    "ejs": "3.0.2",
     "errorhandler": "1.5.1",
     "express": "4.17.1",
+    "express-session": "^1.17.1",
+    "passport": "0.4.1",
+    "passport-github": "1.1.0",
     "puppeteer": "2.1.1"
   },
   "engines": {
